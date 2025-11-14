@@ -3,63 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Team Zeal — Official Website</title>
+  <title>Welcome — Team Zeal</title>
+  <link rel="icon" type="image/png" href="logo.png">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+  <section class="hero">
+    <video autoplay muted loop playsinline class="background-video">
+      <source src="sample.mp4" type="video/mp4">
+    </video>
+    <div class="hero-content">
+      <h1>Welcome to <span>Team Zeal</span></h1>
+      <p>Loading the latest updates...</p>
+    </div>
+  </section>
 
-
-
-
-<header class="main-header sticky">
-  <div class="logo">
-    <a href="index.html"><img src="logo.png" alt="Team Zeal Logo" class="logo-img"></a>
-  </div>
-
-  <nav>
-    <a href="news.html">News</a>
-    <a href="team.html">Team</a>
-    <a href="schedule.html">Schedule</a>
-    <a href="partners.html">Partners</a>
-    <a href="contact.html" class="cta">Contact</a>
-    <a href="about.html">About</a>
-  </nav>
-
-  <div class="header-socials">
-    <a href="https://youtube.com/@teamzealgg" target="_blank"><i class="fab fa-youtube"></i></a>
-    <a href="https://facebook.com/teamzealgg" target="_blank"><i class="fab fa-facebook-f"></i></a>
-    <a href="https://tiktok.com/@teamzealgg" target="_blank"><i class="fab fa-tiktok"></i></a>
-    <a href="https://x.com/teamzeal.gg" target="_blank"><i class="fab fa-x-twitter"></i></a>
-    <a href="https://discord.gg/teamzealgg" target="_blank"><i class="fab fa-discord"></i></a>
-  </div>
-</header>
-
-
-
-
-<section class="hero">
-  <video autoplay muted loop playsinline class="background-video">
-    <source src="sample.mp4" type="video/mp4">
-  </video>
-  <div class="hero-content">
-    <h1>Welcome to <span>Team Zeal</span></h1>
-    <p>South Asia’s rising esports organization — built with passion, teamwork, and focus.</p>
-    <a href="about.html" class="btn-glow">Learn More</a>
-  </div>
-</section>
-
-<section class="info-section">
-  <h2>About Team Zeal</h2>
-  <p>Team Zeal represents the energy and drive of Nepal’s esports community. We compete with integrity and innovation across multiple titles, aiming to dominate the South Asian scene.</p>
-</section>
-
-
-  <footer>
-    
-    <div>© 2025 Team Zeal — All Rights Reserved</div>
-  </footer>
-
-
+  <script>
+    setTimeout(() => {
+      document.body.style.transition = "opacity 1s";
+      document.body.style.opacity = "0";
+      setTimeout(() => window.location.href = "/news", 1000);
+    }, 5000);
+  </script>
 </body>
 </html>
