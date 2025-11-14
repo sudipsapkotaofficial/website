@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sudip Sapkota</title>
+  <link rel="icon" type="image/png" href="https://via.placeholder.com/64" />
+  <style>
+    :root {
+      --bg: #e5e5e5;
+      --card-bg: #f2f2f2;
+      --accent: #6b7280;
+      --text: #1f2937;
+      --subtext: #4b5563;
+      --radius: 18px;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Inter", sans-serif;
+      background: var(--bg);
+      display: flex;
+      justify-content: center;
+      padding: 40px 20px;
+      color: var(--text);
+    }
+
+    .container {
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .profile {
+      background: var(--card-bg);
+      padding: 40px 20px;
+      border-radius: var(--radius);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    }
+
+    .profile img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid var(--accent);
+    }
+
+    h1 {
+      margin: 20px 0 8px;
+      font-size: 1.8rem;
+    }
+
+    p.bio {
+      margin: 0 auto 25px;
+      max-width: 350px;
+      font-size: 1rem;
+      color: var(--subtext);
+      line-height: 1.5;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .link-btn {
+      background: var(--card-bg);
+      padding: 16px;
+      border-radius: var(--radius);
+      text-decoration: none;
+      color: var(--text);
+      font-size: 1.1rem;
+      font-weight: 600;
+      border: 2px solid var(--accent);
+      transition: 0.25s;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+    }
+
+    .link-btn:hover {
+      background: var(--accent);
+      color: #fff;
+      transform: translateY(-3px);
+    }
+
+    footer {
+      margin-top: 35px;
+      font-size: 0.9rem;
+      color: var(--subtext);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="profile">
+      <img src="https://via.placeholder.com/120" alt="Profile" />
+      <h1>Sudip Sapkota</h1>
+      <p class="bio">Official Sudip Sapkota website.</p>
+
+      <div class="links">
+        <a class="link-btn" href="mailto:sudipsapkota076@gmail.com" target="_blank">📧 Email: sudipsapkota076@gmail.com</a>
+        <a class="link-btn" href="https://instagram.com/sudipsapkotaofficial" target="_blank">📷 Instagram: @sudipsapkotaofficial</a>
+      </div>
+    </div>
+
+    <footer>
+      © 2025 Your Name — All Rights Reserved
+    </footer>
+  </div>
+</body>
+</html>
