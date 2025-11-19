@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sudip Sapkota</title>
+  
+  <!-- Favicon link -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;600;700&display=swap');
+    :root{
+      --bg:#f8fafb;
+      --card:#ffffff;
+      --muted:#6b7280;
+      --accent: #2563eb;
+      --accent-dark: #1e40af;
+      --linkedin: #0a66c2;
+      --github:#111827;
+      --email:#f97316;
+      --radius:16px;
+      --shadow: 0 6px 18px rgba(15,23,42,0.08);
+      font-family: 'Montserrat', sans-serif;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(135deg,#dfe9f3,#ffffff,#eef2f7);color:#111827;-webkit-font-smoothing:antialiased;}
+    .container{max-width:1100px;margin:48px auto;padding:24px}
+    header{text-align:center;margin-bottom:32px}
+    h1{font-size:40px;margin:0 0 8px;font-family:'Bebas Neue', sans-serif;color:#000000;}
+    p.lead{margin:0;color:var(--muted);font-size:18px}
+    .about{max-width:760px;margin:28px auto;color:#374151;line-height:1.6;text-align:center}
+    .grid{display:grid;gap:20px;grid-template-columns:repeat(1,1fr);margin:36px 0}
+    @media(min-width:768px){ .grid{grid-template-columns:repeat(3,1fr)} }
+    .card{background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);padding:22px}
+    .card h3{margin:0 0 10px;font-size:18px;font-family:'Montserrat', sans-serif;}
+    .card p{margin:0 0 16px;color:var(--muted)}
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:12px;border:0;cursor:pointer;font-weight:600;text-decoration:none}
+    .btn svg{display:block}
+    .btn-primary{background:var(--accent);color:#fff}
+    .btn-primary:hover{background:var(--accent-dark)}
+    .contact{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:6px}
+    .btn-email{background:var(--email);color:#fff}
+    .btn-email:hover{filter:brightness(.95)}
+    .btn-linkedin{background:var(--linkedin);color:#fff}
+    .btn-github{background:var(--github);color:#fff}
+    footer{text-align:center;color:var(--muted);margin-top:40px;font-size:14px}
+      .btn:hover{transform:scale(1.05);transition:0.2s;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>SUDIP SAPKOTA</h1>
+      <p class="lead">Developer • Designer • Tech Enthusiast</p>
+    </header>
+
+    <section class="about">
+      <p>Hi! I'm Sudip, a passionate developer who loves creating elegant user interfaces, modern web applications, and meaningful digital experiences. I enjoy working with front-end technologies and turning ideas into beautiful, functional designs.</p>
+    </section>
+
+    <section class="grid" aria-label="Highlights">
+      <article class="card">
+        <h3>Projects</h3>
+        <p>A brief overview of my projects and what I love working on.</p>
+        <a class="btn btn-primary" href="/projects">View Projects</a>
+      </article>
+
+      <article class="card">
+        <h3>Skills</h3>
+        <p>Frontend development, UI/UX, React, HTML, CSS, JavaScript.</p>
+        <a class="btn btn-primary" href="/skills">View Skills</a>
+      </article>
+
+      <article class="card">
+        <h3>Experience</h3>
+        <p>Work and contributions focused on building web products and interfaces.</p>
+        <a class="btn btn-primary" href="/experience">View Experience</a>
+      </article>
+    </section>
+
+    <section style="text-align:center">
+      <h3 style="margin-bottom:8px">Contact</h3>
+      <div class="contact" role="navigation" aria-label="Contact links">
+        <a class="btn btn-email" href="mailto:sudipsapkota076@gmail.com">
+          Email
+        </a>
+
+        <a class="btn btn-linkedin" href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noreferrer">
+          LinkedIn
+        </a>
+
+        <a class="btn btn-github" href="https://github.com/sudipsapkotaofficial" target="_blank" rel="noreferrer">
+          GitHub
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p style="margin:0; padding:20px 0; color:#6b7280; font-size:14px;">© 2025 SUDIP SAPKOTA</p>
+    </footer>
+  </div>
+</body>
+</html>
